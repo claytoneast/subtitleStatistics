@@ -1,0 +1,5 @@
+While watching a Spanish TV show, El Ministerio del Tiempo, I wondered: what portion of Spanish is contained within one episode of this show? Would it be possible to learn Spanish just by going through this TV show, and memorizing every single word that I come across? Would I have a good foundation to go off of?
+
+I took the subtitle files from the show, and made a small script to figure this out. It turns out that the first episode of EMDT has around 1505 unique words. This method is somewhat flawed, in that there are certainly multiple tenses and conjugations on the same word, but hey, they are still variations I'd have to learn, so I'm counting them. Realistically, the number is probably far higher. There may be verbs that are only conjugated in one form here, or in one tense. This is a good starting statistic for me though, anyway. The first season of EMDT contains 6437 unique words. I think if I took it upon myself to learn every single word in the first season, I'd have a pretty damn good working knowledge of Spanish.
+
+Use: `$ ruby main.rb /Path/To/FolderContainingSRTs`
